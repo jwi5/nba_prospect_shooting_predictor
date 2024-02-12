@@ -1,4 +1,5 @@
 # NBA Prospect Three-Point Shooting Predictor
+![Image Alt text](/Images/buddy.webp))
 ## Business Understanding
 #### The Evolution of the NBA and the Rise of Three-Point Shooting
 
@@ -44,6 +45,7 @@ Additionally, we've introduced a slight adjustment factor based on the total num
 This methodological refinement ensures that our predictive model considers not just how accurately players shoot from beyond the arc, but also the context of their shooting—leading to a more accurate assessment of three-point shooting skill in the NBA.
 
 After creating the Confidence and Volume-Adjusted 3P% metric, here is how our list of top 20 shooters by percentage changed:
+![Image Alt text](/Images/three_point_comparison.pdf)
 
 Drawing on domain knowledge, the Adjusted 3P% metric emerges as a superior indicator of three-point shooting prowess. For instance, Stephen Curry, widely acknowledged as the greatest three-point shooter in history, ascends from 8th place based on traditional 3P% to the top position when considering Adjusted 3P%. Conversely, Tony Bradley, who leads in three-point percentage, experiences a significant drop in the rankings due to his low rate of 0.3 three-point attempts per 100 possessions. Bradley, primarily a center who rarely shoots from beyond the arc, has only attempted 12 three-pointers in his career, suggesting that his 50% success rate is more likely a result of small sample variance rather than genuine shooting prowess. Another notable example is Kelenna Azubuike, recognized as a proficient three-point shooter but not among the elite. While he ranks fourth in traditional 3P%, his position drops out of the Top 20 in Adjusted 3P% due to taking only 4.5 three-point shots per 100 possessions throughout his career. This adjustment reflects a more nuanced understanding of a player's ability to shoot three-pointers, accounting for both accuracy and the difficulty level of the shots attempted.
 
