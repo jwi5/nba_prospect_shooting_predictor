@@ -45,7 +45,7 @@ Additionally, we've introduced a slight adjustment factor based on the total num
 This methodological refinement ensures that our predictive model considers not just how accurately players shoot from beyond the arc, but also the context of their shooting—leading to a more accurate assessment of three-point shooting skill in the NBA.
 
 After creating the Confidence and Volume-Adjusted 3P% metric, here is how our list of top 20 shooters by percentage changed:
-![Image Alt text](/Images/three_point_comparison.pdf)
+![Image Alt text](/Images/threep_comp.png) ![Image Alt text](/Images/threep_comp2.png)
 
 Drawing on domain knowledge, the Adjusted 3P% metric emerges as a superior indicator of three-point shooting prowess. For instance, Stephen Curry, widely acknowledged as the greatest three-point shooter in history, ascends from 8th place based on traditional 3P% to the top position when considering Adjusted 3P%. Conversely, Tony Bradley, who leads in three-point percentage, experiences a significant drop in the rankings due to his low rate of 0.3 three-point attempts per 100 possessions. Bradley, primarily a center who rarely shoots from beyond the arc, has only attempted 12 three-pointers in his career, suggesting that his 50% success rate is more likely a result of small sample variance rather than genuine shooting prowess. Another notable example is Kelenna Azubuike, recognized as a proficient three-point shooter but not among the elite. While he ranks fourth in traditional 3P%, his position drops out of the Top 20 in Adjusted 3P% due to taking only 4.5 three-point shots per 100 possessions throughout his career. This adjustment reflects a more nuanced understanding of a player's ability to shoot three-pointers, accounting for both accuracy and the difficulty level of the shots attempted.
 
@@ -56,16 +56,22 @@ Subsequent efforts focused on consolidating the data for athletes with multiple 
 
 ## Modeling
 Several regression models were used: Linear Regression, Ridge Regression, Random Forest Regression, Support Vector Regression, XGBoost Regression, and AdaBoost Regression. The effectiveness of each model was assessed based on the R-Squared and Root Mean Square Error (RMSE) on Cross Validation.
+![Image Alt text](/Images/model_performance.png) 
 
 Based on these cross validation results, I chose the Support Vector Regressor as the best model and used it to predict on the test set:
+
 SVR Performance on Test Set:
+
 R-squared: 0.4879032797541556
+
 RMSE: 0.06343820309154603
 
 The RMSE shows that, on average, the model's predictions of the NBA three-point shooting percentage (3PT%) deviate from the actual values by 6.34%. Although this accuracy might not appear exceptional at first glance, it surpasses the predictions made by our baseline Dummy Model by a notable margin of 2.71%. This improvement is particularly significant given the acknowledged difficulty in accurately predicting NBA three-point success from an NBA prospect's profile. 
 
 ## Feature Importance
 Feature Importance in the SVR Model was assessed through Coefficent Magnitude and Perumtation Feature performance. Here are the results:
+![Image Alt text](/Images/coefficent_magnitude.png) 
+![Image Alt text](/Images/permutation_importance.png) 
 
 ## Conclusions
 When assessing the coefficient magnitude and the permutation feature importance, FT% (free throw percentage), 3PT/100 (Three-Pointers per 100 Possessions), 3P (three pointers made) are consistently important predictors of NBA three-point shooting skill. This aligns with the previous discussion of three-point percentage alone not being as indiciative of three-point shooting skill as it might seem, as some players may be taking a higher volume of shots per possession and also may be taking more difficult shots as a byproduct of this. Additonally, players generally dont take that large a sample of three pointers during their college careers, so college three-point percentage is quite susceptible to noise, making it less reliable for predicting future performance.
