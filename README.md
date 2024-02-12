@@ -1,4 +1,5 @@
 # NBA Prospect Three-Point Shooting Predictor
+![Image Alt text](/Images/buddy.webp))
 ## Business Understanding
 #### The Evolution of the NBA and the Rise of Three-Point Shooting
 
