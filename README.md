@@ -70,6 +70,8 @@ The RMSE shows that, on average, the model's predictions of the NBA three-point 
 
 ## Feature Importance
 Feature Importance in the SVR Model was assessed through Coefficent Magnitude and Perumtation Feature performance. Here are the results:
+![Image Alt text](/Images/coefficient_magnitude.png) 
+![Image Alt text](/Images/permutation_importance.png) 
 
 ## Conclusions
 When assessing the coefficient magnitude and the permutation feature importance, FT% (free throw percentage), 3PT/100 (Three-Pointers per 100 Possessions), 3P (three pointers made) are consistently important predictors of NBA three-point shooting skill. This aligns with the previous discussion of three-point percentage alone not being as indiciative of three-point shooting skill as it might seem, as some players may be taking a higher volume of shots per possession and also may be taking more difficult shots as a byproduct of this. Additonally, players generally dont take that large a sample of three pointers during their college careers, so college three-point percentage is quite susceptible to noise, making it less reliable for predicting future performance.
