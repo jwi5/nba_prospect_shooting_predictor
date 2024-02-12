@@ -56,6 +56,7 @@ Subsequent efforts focused on consolidating the data for athletes with multiple 
 
 ## Modeling
 Several regression models were used: Linear Regression, Ridge Regression, Random Forest Regression, Support Vector Regression, XGBoost Regression, and AdaBoost Regression. The effectiveness of each model was assessed based on the R-Squared and Root Mean Square Error (RMSE) on Cross Validation.
+![Image Alt text](/Images/model_performance.png) 
 
 Based on these cross validation results, I chose the Support Vector Regressor as the best model and used it to predict on the test set:
 
