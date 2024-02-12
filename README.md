@@ -58,8 +58,11 @@ Subsequent efforts focused on consolidating the data for athletes with multiple 
 Several regression models were used: Linear Regression, Ridge Regression, Random Forest Regression, Support Vector Regression, XGBoost Regression, and AdaBoost Regression. The effectiveness of each model was assessed based on the R-Squared and Root Mean Square Error (RMSE) on Cross Validation.
 
 Based on these cross validation results, I chose the Support Vector Regressor as the best model and used it to predict on the test set:
+
 SVR Performance on Test Set:
+
 R-squared: 0.4879032797541556
+
 RMSE: 0.06343820309154603
 
 The RMSE shows that, on average, the model's predictions of the NBA three-point shooting percentage (3PT%) deviate from the actual values by 6.34%. Although this accuracy might not appear exceptional at first glance, it surpasses the predictions made by our baseline Dummy Model by a notable margin of 2.71%. This improvement is particularly significant given the acknowledged difficulty in accurately predicting NBA three-point success from an NBA prospect's profile. 
