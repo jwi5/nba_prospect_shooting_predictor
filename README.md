@@ -70,7 +70,7 @@ The RMSE shows that, on average, the model's predictions of the NBA three-point 
 
 ## Feature Importance
 Feature Importance in the SVR Model was assessed through Coefficent Magnitude and Perumtation Feature performance. Here are the results:
-![Image Alt text](/Images/coefficient_magnitude.png) 
+![Image Alt text](/Images/coefficent_magnitude.png) 
 ![Image Alt text](/Images/permutation_importance.png) 
 
 ## Conclusions
