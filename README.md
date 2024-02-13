@@ -81,3 +81,15 @@ Free throw percentage (FT%), on the other hand, can be a better predictor for a 
 The stat 3PT/100 is also useful. It tells us not just how many threes a player makes, but how willing they are to take them. Good shooters are likely to shoot more threes, both because they themselves have been considered good shooters in the past (high school and team practices) and because their coaches set up plays for them to shoot from distance. Also, if a player is shooting more threes per possession, they’re probably taking more difficult shots too, rather than only shooting when they find themselves wide open. And it is also possibly true that shooting more often in games might indicate and/or lead to better shooting improvement and developement in the future.
 
 Overall, these findings show that how often players shoot and their free throw percentages might give us better clues about their future NBA three-point shooting than just their college three-point shooting percentage. This approach recognizes that predicting shooting skill is about more than just the percentage of three pointers a player makes; it's also about their overall shooting habits and how they fit into the game.
+
+## Repo Structure 
+```
+├── Data
+├── Images
+├── Notebooks
+├── .gitignore
+├── Final.ipynb
+├── LICENSE
+├── README.md
+```
+
