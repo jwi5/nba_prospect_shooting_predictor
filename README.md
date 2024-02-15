@@ -1,5 +1,5 @@
 # NBA Prospect Three-Point Shooting Predictor
-![Image Alt text](/Images/buddy.webp))
+![Image Alt text](/Images/buddy.webp)
 ## Business Understanding
 #### The Evolution of the NBA and the Rise of Three-Point Shooting
 In the modern NBA, the [emphasis on three-point shooting has dramatically reshaped the game](https://www.nba.com/news/3-point-era-nba-75), altering team strategies and player development. This evolution has [elevated the importance of proficiency in three-point shooting](https://www.theringer.com/nba/2021/2/12/22279459/nba-make-miss-3-point-shooting) to an essential skill for players across all positions. Being adept at long-range shooting is now a critical factor in a player's career, influencing their ability to secure a spot on a team and potentially impacting their market value. As a result, NBA teams are [increasingly focusing on developing this skill in their players](https://www.cbssports.com/nba/news/thunder-hire-chip-engelland-nbas-top-shooting-coach-who-spent-17-years-with-spurs-per-report/), leveraging targeted training and analytics to enhance shooting effectiveness.
