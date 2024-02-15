@@ -65,7 +65,9 @@ For choosing a final model, I evaluated each of my model's performance on cross 
 Ultimately, the best model based on these metrics was the Support Vector Regression. One thing I noticed when evaluating each model on cross validation was that the linear-based models performed better and were less overfit, even after extensive grid searching and hyperparamater tuning, than the tree based models (Random Forest and AdaBoost). This could mean that the target was best predicted by the features most linear with it, and that complex relationships between the features were either not present or not as relevant in predicting NBA three-Point shooting. Additonally, the dataset I am working with is relatively small (559 rows), which could have made it more prone to overfitting to the training data due to the complexity of the tree-based models compared to the linear ones. 
 
 After choosing my best model (Support Vector Regression), I evaluated the best model by predicting on the test set and comparing to my dummy model:
-[INSERT SVR RESULTS IMAGE
+
+![Image Alt text](/Images/SVR_Test_Results.png) 
+
 ### Performance on Test Set
 The performance of the SVR model on the test set, indicated by an R-squared value of 0.4708 and an RMSE of 0.0645, provides valuable insights into its predictive capabilities for the NBA three-point shooting. The R-squared value suggests that the model explains approximately 47% of the variance in three-point shooting percentages among NBA players based on their college profiles. While this demonstrates a moderate level of predictive power, indicating that the model captures a portion of the relationship between college performance and NBA three-point shooting, the R-squared is notably lower than what was observed during cross-validation. This discrepancy may suggest that the model, despite being the best among those tested, could be overfitting to the training data or that the cross-validation performance optimistically estimated the model's generalizability to unseen data.
 
