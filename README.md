@@ -86,10 +86,10 @@ The stat 3PT/100 is also useful. It tells us not just how many threes a player m
 
 Overall, these findings show that how often players shoot and their free throw percentages might give us better clues about their future NBA three-point shooting than just their college three-point shooting percentage. This approach recognizes that predicting shooting skill is about more than just the percentage of three pointers a player makes; it's also about their overall shooting habits and how they fit into the game.
 ## Showcasing my Best Model's Performance on Current NBA Rookies and the Upcoming 2024 NBA Draft Class (as of February 14, 2024) 
-###Current NBA Rookies
+### Current NBA Rookies
 ![Image Alt text](/Images/rookie_shooting_predictions.png) 
 
-###2024 NBA Draft Class College Prospects
+### 2024 NBA Draft Class College Prospects
 ![Image Alt text](/Images/draft_shooting_predictions.png) 
 
 ## Conclusion
