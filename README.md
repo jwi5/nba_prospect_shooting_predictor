@@ -73,7 +73,7 @@ The performance of the SVR model on the test set, indicated by an R-squared valu
 
 However, the RMSE value, which measures the average deviation of the predicted three-point percentages from the actual values, is relatively low, signifying that the model's predictions are on average within about 6.45% of the adjusted three-point shooting percentages. The fact that the RMSE is better (lower) on the test set compared to the cross-validation performance indicates that the model is quite effective at making precise predictions, even if it doesn't capture all the variability in the data. This could be particularly valuable in a business context where making accurate predictions about a player's three-point shooting ability can inform scouting decisions, player evaluations, and team compositions.
 
-###Feature Importance
+### Feature Importance
 Feature Importance in the SVR Model was assessed through Coefficent Magnitude and Perumtation Feature performance:
 ![Image Alt text](/Images/coefficent_magnitude.png) 
 ![Image Alt text](/Images/permutation_importance.png) 
@@ -87,8 +87,10 @@ The stat 3PT/100 is also useful. It tells us not just how many threes a player m
 Overall, these findings show that how often players shoot and their free throw percentages might give us better clues about their future NBA three-point shooting than just their college three-point shooting percentage. This approach recognizes that predicting shooting skill is about more than just the percentage of three pointers a player makes; it's also about their overall shooting habits and how they fit into the game.
 ## Showcasing my Best Model's Performance on Current NBA Rookies and the Upcoming 2024 NBA Draft Class (as of February 14, 2024) 
 ###Current NBA Rookies
+![Image Alt text](/Images/rookie_shooting_predictions.png) 
 
 ###2024 NBA Draft Class College Prospects
+![Image Alt text](/Images/draft_shooting_predictions.png) 
 
 ## Conclusion
 In conclusion, as the NBA continues to evolve with a heightened emphasis on three-point shooting, the ability to accurately predict a player's long-range shooting potential from their college performance becomes increasingly valuable. Our best-performing model, the Support Vector Regression, showcases promising results with an R-squared of 0.4708 and an RMSE of 0.0645. While these figures, particularly the modest improvement of just over 2.5% in RMSE compared to the baseline Dummy Model, might not initially appear groundbreaking, they represent a significant step forward in the notoriously challenging task of predicting NBA three-point shooting ability based solely on a prospect's profile.
